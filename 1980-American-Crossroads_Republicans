@@ -1153,7 +1153,7 @@ style.innerHTML = `
     background-color: var(--primary-bg);
     margin: .5em;
     border-style: solid;
-    border-color: var(--border-color);
+    border-color: inherit;
     border-width: 3px;
     height: 50em;
     text-align: center;
@@ -1230,6 +1230,10 @@ style.innerHTML = `
 div#question_form {
 overflow-y: auto;
   height: 205px;
+}
+
+#map_container {
+  height: 30.73em;
 }
 `;
 document.head.appendChild(style);
